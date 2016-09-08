@@ -1,0 +1,14 @@
+[package]
+name = "lsusb"
+version = "0.1.0"
+authors = ["Tim Ryan <id@timryan.org>", "David Cuddeback <david.cuddeback@gmail.com>"]
+description = "Cross-platform lsusb command."
+license = "MIT"
+homepage = "https://github.com/tcr/rust-lsusb.git"
+repository = "https://github.com/tcr/rust-lsusb.git"
+documentation = "https://github.com/tcr/rust-lsusb.git"
+readme = "README.md"
+keywords = ["usb", "libusb", "lsusb"]
+
+[dependencies]
+libusb = "0.2.2"
